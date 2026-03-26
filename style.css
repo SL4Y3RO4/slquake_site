@@ -1,8 +1,41 @@
+:root {
+    --gr:gray;
+    --b:black;
+    --wh:white;
+    --re:red;
+}
+
+
+body {
+    font-family: arial;;
+}
+
+
 .section {
     background-color: gray;
     padding:10px 10px 10px 10px;
     margin:20px;
     width:150px;
     border:2px solid black;
+    cursor:pointer;
+}
+
+input[type="text"] {
+     padding:5px;
+     border:1px solid black;
+     cursor:pointer;
+}
+
+input[type="submit"] {
+     padding:5px;
+     border:1px solid black;
+     background:var(--gr);
+     font-family: arial;
+     color:var(--wh);
+     cursor: pointer;
+}
+
+@keyframes fadein {
+
 }
 
