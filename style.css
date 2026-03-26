@@ -18,12 +18,31 @@ body {
     width:150px;
     border:2px solid black;
     cursor:pointer;
+    position:absolute;
 }
 
 input[type="text"] {
      padding:5px;
      border:1px solid black;
      cursor:pointer;
+     color:var(--b);
+     text-decoration: none;
+     outline: none;
+     border:2px solid var(--b);
+     font-family: arial;
+}
+
+
+input[type="text"]::placeholder {
+    color: var(--gr);
+    font-family: arial;
+    font-weight: bold;
+   
+}
+
+input[type="text"]:focus {
+    outline: none;
+    font-family: arial;
 }
 
 input[type="submit"] {
@@ -31,11 +50,58 @@ input[type="submit"] {
      border:1px solid black;
      background:var(--gr);
      font-family: arial;
-     color:var(--wh);
+     color:var(--b);
      cursor: pointer;
+     font-family: arial;
+     font-weight: bold;
+}
+
+#title {
+    animation: fadein 4s infinite;
+    background-color: var(--gr);
+    width:180px;
+    padding:10px 10px 10px 10px;
+    border:2px solid black;
+    margin:20px;
+}
+
+.section:hover {
+    background: var(--b);
+    color: var(--wh);
+}
+
+#download {
+    left:300px;
+    top:150px;
+}
+
+#patch-notes {
+    left:600px;
+    top:150px;
+}
+
+#gameplay {
+    left:900px;
+    top:150px;
+}
+
+#about {
+    top:150px;
+}
+
+form {
+    margin:20px;
+    padding:10px 10px 10px 10px;
+    background:rgb(185, 123, 255);
+    width: 250px;
+    border:2px solid black;
 }
 
 @keyframes fadein {
-
+    0%,
+    25% { color: var(--b); }
+    50% { color: var(--re); }
+    75% { color: var(--b); }
+    100% { color: var(--re); }
 }
 
