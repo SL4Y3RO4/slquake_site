@@ -115,7 +115,7 @@ form {
     border: 2px solid var(--b);
     background-color:var(--pur);
     width:60%;
-    height:750px;
+    height:850px;
     padding:5px 5px 5px 5px;
     position: absolute;
 }
@@ -128,9 +128,10 @@ form {
     left:10%;
     top:320px;
     width:40%;
-    height:50%;
+    height:60%;
     background-color: var(--wh);
     padding:10px 10px 10px 10px;
+    font-size: 20px;
 }
 
 #sec {
@@ -138,3 +139,44 @@ form {
     top:-20%;
 }
 
+#sl {
+    color: var(--pur);
+    font-weight: bold;
+}
+
+#qspn {
+    color: var(--gr);
+    font-weight: bold;
+}
+
+#qlogo {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    margin-left:150px;
+}
+
+#real {
+    color:var(--re);
+    font-weight:bold;
+}
+
+#loser {
+    color:var(--re);
+    font-weight:bold;
+}
+
+legend {
+    font-weight: bold;
+    color:var(--b);
+}
+
+
+a {
+    text-decoration: none;
+    color:var(--b);
+}
+
+a:hover {
+    color:var(--wh);
+}
