@@ -1,0 +1,66 @@
+body {
+    background-image: url(slquake_logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#box1 {
+    width: 800px;
+    height: 1300px;
+    background-color: var(--pur);
+    border: 2px solid var(--b);
+    position: absolute;
+    left: 500px;
+    top: 100px;
+}
+
+#inner-box {
+    width:600px;
+    height:1200px;
+    background-color: var(--wh);
+    border: 2px solid var(--b);
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+
+#patch_title {
+    color: var(--b);
+    font-weight: bold;
+    border: 2px solid var(--b);
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    background: var(--gr);
+    animation: fadeinpatch 4s infinite;
+}
+
+* {
+    font-family: arial;
+}
+
+
+@keyframes fadeinpatch {
+    0%,
+    25% { color: var(--b); }
+    50% { color: var(--re); }
+    75% { color: var(--b); }
+    100% { color: var(--re); }
+}
+
+.patch_version {
+    background: var(--gr);
+    font-family: arial;
+    font-weight: bold;
+    position: relative;
+    top:-20px;
+}
+
+#armours_tag {   
+    color:darkcyan;   
+}
+
+#weapons_tag {
+    color:red;
+}
+

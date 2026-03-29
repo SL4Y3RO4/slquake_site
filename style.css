@@ -180,3 +180,20 @@ a {
 a:hover {
     color:var(--wh);
 }
+
+
+body {
+    background-image: url(slquake_logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+ol, ul {
+    font-weight:bold;
+}
+
+h4 {
+    color: var(--gr);
+    text-decoration: underline;
+}
