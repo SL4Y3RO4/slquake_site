@@ -64,3 +64,18 @@ body {
     color:red;
 }
 
+body {
+    background-image: url(slquake_logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+ol, ul {
+    font-weight:bold;
+}
+
+h4 {
+    color: var(--gr);
+    text-decoration: underline;
+}
