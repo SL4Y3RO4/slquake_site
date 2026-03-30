@@ -1,0 +1,42 @@
+body {
+    background-image: url(slquake_logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#box2 {
+
+    border: 2px solid var(--b);
+    background-color: var(--pur);
+    width: 600px;
+    height: 850px;
+}
+
+#textbox2 {
+    border: 2px solid var(--b);
+    width: 500px;
+    height: 500px;
+    background-color: var(--wh);
+}
+
+#download_title {
+    background-color: var(--gr);
+    border: 2px solid var(--b);
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    animation: fadeindownload 4s infinite;
+}
+
+@keyframes fadeindownload {
+    0%,
+    25% { color: var(--b); }
+    50% { color: var(--re); }
+    75% { color: var(--b); }
+    100% { color: var(--re); }
+}
+
+.patch-version {
+    background-color: var(--gr);
+    position: relative;
+    top:-20px;
+}
