@@ -45,3 +45,18 @@ body {
     position: relative;
     top:-20px;
 }
+
+
+#download-link {
+    color: var(--b);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+
+#download-link:hover {
+    color: var(--pur);
+}

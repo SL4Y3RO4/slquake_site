@@ -1,0 +1,48 @@
+#initbox {
+        border:2px solid var(--b);
+        color:var(--b);
+        position: absolute;
+        left:15%;
+        top:150px;
+        width:70%;
+        height:950px;
+        padding:5px 5px 5px 5px;
+        background: var(--pur);
+}
+
+
+#guide_title {
+    color: var(--b);
+    font-weight: bold;
+    border: 2px solid var(--b);
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    background: var(--gr);
+    animation: fadeinguide 4s infinite;
+}
+
+
+#textbox_guide {
+    border:2px solid var(--b);
+    color:var(--b);
+    position: absolute;
+    left:25%;
+    top:70px;
+    width:50%;
+    height:33%;
+    left:42%;
+
+    background-color: var(--wh);
+    padding:10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+
+@keyframes fadeinguide {
+    0%,
+    25% { color: var(--b); }
+    50% { color: var(--re); }
+    75% { color: var(--b); }
+    100% { color: var(--re); }
+}

@@ -1,5 +1,5 @@
 body {
-    background-image: url(slquake_logo.png);
+    background-image: url(duelist_logo.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -56,16 +56,16 @@ body {
     top:-20px;
 }
 
-#armours_tag {   
+.armours_tag {   
     color:darkcyan;   
 }
 
-#weapons_tag {
+.weapons_tag {
     color:red;
 }
 
 body {
-    background-image: url(slquake_logo.png);
+    background-image: url(duelist.png);
     background-size: cover;
     background-attachment: fixed;
 }
