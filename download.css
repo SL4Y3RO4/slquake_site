@@ -30,6 +30,7 @@ body {
     width: 200px;
     padding: 10px 10px 10px 10px;
     animation: fadeindownload 4s infinite;
+    animation-direction: alternate;
 }
 
 @keyframes fadeindownload {

@@ -33,6 +33,7 @@ body {
     position: absolute;
     background: var(--gr);
     animation: fadeinpatch 4s infinite;
+    animation-direction: alternate;
 }
 
 * {

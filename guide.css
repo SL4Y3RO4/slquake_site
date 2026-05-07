@@ -20,6 +20,7 @@
     position: absolute;
     background: var(--gr);
     animation: fadeinguide 4s infinite;
+    animation-direction: alternate;
 }
 
 
@@ -32,7 +33,6 @@
     width:50%;
     height:33%;
     left:42%;
-
     background-color: var(--wh);
     padding:10px 10px 10px 10px;
     font-size: 20px;

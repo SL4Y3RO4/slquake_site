@@ -17,6 +17,7 @@ body {
     padding:10px 10px 10px 10px;
     margin:20px;
     width:150px;
+    height: 70px;
     border:2px solid black;
     cursor:pointer;
     position:absolute;
@@ -59,6 +60,7 @@ input[type="submit"] {
 
 #title {
     animation: fadein 4s infinite;
+    animation-direction: alternate;
     background-color: var(--gr);
     width:180px;
     padding:10px 10px 10px 10px;
@@ -72,22 +74,23 @@ input[type="submit"] {
 }
 
 #download {
-    left:300px;
+    left:147px;
     top:150px;
 }
 
 #patch-notes {
-    left:600px;
+    left:320px;
     top:150px;
 }
 
 #guide {
-    left:900px;
+    left:493px;
     top:150px;
 }
 
 #about {
     top:150px;
+    left: -26px;
 }
 
 form {
