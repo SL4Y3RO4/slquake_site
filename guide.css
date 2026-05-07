@@ -38,6 +38,14 @@
     font-size: 20px;
 }
 
+#dguide_logo {
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    left: 80px;
+    top: 70px;
+}
+
 
 @keyframes fadeinguide {
     0%,

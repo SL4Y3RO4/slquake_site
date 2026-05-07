@@ -12,7 +12,7 @@ body {
 }
 
 
-.section {
+.session {
     background-color: gray;
     padding:10px 10px 10px 10px;
     margin:20px;
@@ -68,7 +68,7 @@ input[type="submit"] {
     margin:20px;
 }
 
-.section:hover {
+.session:hover {
     background: var(--b);
     color: var(--wh);
 }
